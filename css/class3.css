@@ -1,0 +1,89 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url('bg.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #F5C691;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:  #ACACAC;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #323232;
+}
+
+p{
+    color: #323232;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    word-spacing: 2.5px;
+    font-size: 15px;
+    text-align: center;
+    /* font-style: italic; */
+}
+
+
+.fbBtn:link, .fbBtn:visited{    
+    color: white;
+    background-color:blue;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding:5px;
+    margin-left: 5px;
+}
+
+
+.fbBtn:hover{
+    color: blue;
+    background-color:white;
+    border-color: blue;
+}
+
+.instaBtn:link, .instaBtn:visited{
+    color: white;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding:5px;
+    margin-left: 5px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1)
+}
+
+.instaBtn:hover{
+    color: #cc2366;
+    background:#e2e2e2 ;
+    border-color: #f09433;
+}
+
+.wspBtn:link, .wspBtn:visited{
+    color: white;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #075E54;
+    padding:5px;
+    margin-left: 5px;
+    background: #25D366; 
+}
+
+.wspBtn:hover{
+    color: #075E54;
+    background:#323232 ;
+    border-color: #075E54;
+}
